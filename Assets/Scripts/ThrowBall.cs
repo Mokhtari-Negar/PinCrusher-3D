@@ -115,6 +115,7 @@ public class ThrowBall : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         cameraFollow();
+        
         if (controlsEnabled) {
             var power = Input.GetAxis("Fire1");
             // Fire

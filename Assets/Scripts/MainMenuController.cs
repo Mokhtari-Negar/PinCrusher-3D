@@ -5,6 +5,7 @@ public class MainMenuController : MonoBehaviour
 {
     public void StartGame()
     {
+        PlayerPrefs.DeleteAll();
         SceneManager.LoadScene("main"); 
     }
 
